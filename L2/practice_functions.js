@@ -28,3 +28,17 @@ console.log(average([1, 2, 3, 4, 5]));
 let temperatures = [24.5, 22.4, 73.2, 47.5, 75.3];
 
 console.log(average(temperatures));
+
+function um() {
+  let meower = 'dog';
+  meow = 'cat';
+}
+
+function outer() {
+  function inner() {
+    return 'hello'
+  }
+  return inner();
+}
+
+console.log(inner());
