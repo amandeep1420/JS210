@@ -37,13 +37,27 @@ A
         
   > THAT CODE DID WORK, ADJSOIDHJASOIFH:ASFH time for bed
 C
-*/
+// */
 
-function logOddNumbers(limit) {
-  for (let i = 1; i <= limit; i += 1) {
-    if (i % 2 !== 0) console.log(i);
-  }
-}
+// function logOddNumbers(limit) {
+//   for (let i = 1; i <= limit; i += 1) {
+//     if (i % 2 !== 0) console.log(i);
+//   }
+// }
 
 logOddNumbers(19);
 logOddNumbers(8);
+
+// further exploration
+
+// #1.
+// my solution
+
+// #2
+
+function logOddNumbers(number) {
+  for (let i = 1; i <= number; i += 1) {
+    if (i % 2 === 0) continue;
+    console.log(i);
+  }
+}
