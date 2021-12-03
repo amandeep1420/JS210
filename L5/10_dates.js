@@ -147,3 +147,12 @@ function formatTime(dateObj) {
   
   return `${hoursString}:${minutesString}`;
 }
+
+
+function hmm(n1, n2) {
+  console.log(n1);
+  console.log(n2);
+  console.log(arguments);
+  let argsArray = Array.prototype.slice.call(arguments);
+  console.log(argsArray);
+}
