@@ -1,0 +1,1 @@
+let swapName = name => name.split(' ').reverse().join(', ');
