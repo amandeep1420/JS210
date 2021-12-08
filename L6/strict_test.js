@@ -33,3 +33,15 @@ function shuffle(deck) {
 }
 
 console.log(createDeck());
+
+function constTest() {
+  
+  {var cat = 'meow';}
+  
+  console.log(cat);
+}
+
+function paramTest(n1, n2, n3) {
+  console.log(n1, n2, n3);
+}
+
